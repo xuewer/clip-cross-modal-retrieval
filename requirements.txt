@@ -1,0 +1,15 @@
+numpy>=1.24
+pandas>=2.0
+Pillow>=10.0
+streamlit>=1.32
+pytest>=8.0
+ftfy
+regex
+tqdm
+torch>=2.0
+torchvision>=0.15
+transformers>=4.40
+huggingface-hub>=0.20
+open_clip_torch>=3.0
+# Optional native OpenAI CLIP backend:
+# git+https://github.com/openai/CLIP.git

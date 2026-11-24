@@ -1,0 +1,35 @@
+{
+  "config": {
+    "gallery_split": "test",
+    "query_split": "test",
+    "image_gallery_count": 1618,
+    "text_gallery_count": 8090,
+    "text_query_count": 8090,
+    "image_query_count": 1618,
+    "model_name": "ViT-B/32",
+    "device": "cpu",
+    "ks": [
+      1,
+      5,
+      10
+    ]
+  },
+  "text_to_image": {
+    "recall@1": 0.4752781211372064,
+    "recall@5": 0.7433868974042027,
+    "recall@10": 0.8327564894932015
+  },
+  "image_to_text": {
+    "recall@1": 0.6508034610630408,
+    "recall@5": 0.8665018541409147,
+    "recall@10": 0.9184177997527813
+  },
+  "data_validation": {
+    "input_rows": 8090,
+    "output_rows": 8090,
+    "duplicate_rows_removed": 0,
+    "empty_rows_removed": 0,
+    "missing_image_rows_removed": 0,
+    "corrupt_image_rows_removed": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "cleaning": {
+    "input_rows": 40460,
+    "output_rows": 40445,
+    "duplicate_rows_removed": 10,
+    "empty_rows_removed": 0,
+    "missing_image_rows_removed": 5,
+    "corrupt_image_rows_removed": 0
+  },
+  "cleaned": {
+    "rows": 40445,
+    "unique_images": 8091,
+    "captions_per_image_mean": 4.998764058830799
+  },
+  "train": {
+    "rows": 32355,
+    "unique_images": 6473,
+    "captions_per_image_mean": 4.99845512127298
+  },
+  "test": {
+    "rows": 8090,
+    "unique_images": 1618,
+    "captions_per_image_mean": 5.0
+  },
+  "split": {
+    "test_size": 0.2,
+    "seed": 42
+  },
+  "image_validation": {
+    "performed": true,
+    "note": "All unique image files were opened and verified."
+  }
+}

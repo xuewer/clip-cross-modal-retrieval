@@ -1,0 +1,56 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+text_summarization/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Editors and machine-specific settings
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Generated datasets, model weights, embeddings and indexes
+/data/*
+!/data/README.md
+!/data/splits/
+/data/splits/*
+!/data/splits/cleaning_stats.json
+/models/*
+!/models/README.md
+/artifacts/
+/embeddings/
+/index/
+/outputs/*
+!/outputs/metrics.json
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npy
+*.npz
+*.zip
+*.log
+
+# Unrelated local projects and personal documents
+/_*/
+*.docx
+*.pdf
